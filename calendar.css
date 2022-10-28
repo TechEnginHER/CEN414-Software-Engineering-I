@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --light-body: #f3f8fe;
+    --light-main: #fdfdfd;
+    --light-second: #c3c2c8;
+    --light-hover: #edf0f5;
+    --light-text: #151426;
+
+    --white: #fff;
+
+    --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+    --font-family: cursive;
+}
+body{
+    font-family: 'Jost', sans-serif;
+    display: gird;
+    place-items: center;
+    background-color: #d6cdcd;
+    height: 100vh;
+    overflow-y: hidden;
+}
+.calendar{
+    background-color: #fdfdfd;
+    width: max-content;
+    min-width: 800px;
+    height: max-content;
+    position: relative;
+    margin: calc((100vh -height)/19) auto;
+    overflow: hidden;
+    border-radius: 15px;
+    padding: 20px;
+}
+.light.calendar{
+    box-shadow: rgba(100, 100, 111, 0.2);
+}
+.calendar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px;
+}
+.calendar-body{
+    padding: 10px;
+}
+.calendar-week-day{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    font-weight: 600;
+    height: 50px;
+}
+.calendar-week-day div{
+    display: grid;
+    place-items: center;
+}
+.calendar-days{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+}
+.calendar-days div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    transition: 0.2s;
+    border: 1px solid white;
+}
+.calendar-days div:hover{
+    border: 1px solid #d6cdcd;
+}
+.day-num.inactive {
+    color: #939297;;
+}
+.day-num.active {
+    border: 2px solid black;
+}
+.month-picker{
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.month-picker:hover{
+    color: purple
+}
+.year-picker{
+    display: flex;
+    align-items: center;
+}
+.month-change{
+    height: 40px;
+    padding: 1px 2px;
+    display: grid;
+    place-items: center;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.month-change:hover{
+    color: purple;
+}
