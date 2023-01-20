@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+#ICON{
+    padding-right: 5px;
+}
+body{
+    font-family: 'Jost', sans-serif;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+input:focus, input:focus-within, input:focus-visible{
+    outline: none;
+}
+/* HEADER */
+header{
+    box-shadow: 0px 5px 15px 0px #f8e5d0;
+    background: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+.nav-bar{
+    display: flex;
+    margin-left: auto; margin-right: auto;
+    max-width: max-content;
+    padding-bottom: 35px; padding-top: 35px;
+}
+.logo{
+    width: 100px;
+}
+.user{
+    display: flex;
+}
+.user a{
+    color: black;
+    font-size: 16px;
+}
+.help{
+    padding:10px;  padding-top: 0;
+}
+.cart{
+    padding:10px;  padding-top: 0;
+}
+.help{
+    margin-left: 10px;
+    position: relative;
+}
+.cart{
+    position: relative;
+}
+.cart-total{
+    position: absolute;
+    bottom: 24px; left: 20px;
+    padding: 2px 4px;
+    color: white;
+    font-size: 7px;
+    font-weight: 700;
+    background-color: #c0976e;
+    border: 1px solid #c0976e;
+    border-radius: 100%
+}
+.cart li{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.cart a:hover{
+    color: #C4A484;
+}
+
+
+/*BODY*/
+main h2{
+    margin-top: 50px;
+    max-width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #C4A484;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.contact-us-form{
+    background-color:  #ffffff;
+    max-width: 50%; 
+    margin-left: auto; margin-right: auto; 
+    border-radius: 10px;   
+    margin-bottom: 30px;
+}
+.contact-us-heading{
+    padding-bottom: 15px;
+}
+.second-line{
+    display: flex;
+    justify-content: space-between;
+}
+.first-name{
+    padding-top: 50px;
+    flex: 47%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.last-name{
+    padding-top: 50px;
+    flex: 47%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.email{
+    padding-top: 50px;
+}
+
+#help{
+    padding-top: 40px;
+}
+.enter-first-name, .enter-last-name, .enter-email{
+    background-color: #ffffff;
+    color: silver;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px;
+    width:100%;
+    border:1px solid silver
+}
+
+.enter-help{
+    background-color: #ffffff;
+    color: silver;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    height: 250px;
+    border:1px solid silver;
+}
+.last-button{
+    padding-top: 40px;
+}
+.button{
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    background-color: #C4A484;
+    padding-top: 15px; padding-bottom: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*Footer*/
+
+.bottom-footer{
+    text-align: center;
+    border-top: 1px solid #C4A484;
+    padding-top: 100px;
+}
+
+/*BODY*/
+.hero{
+    background-color: #C4A484;
+    padding-top: 50px; padding-bottom: 50px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.hero-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1{
+    font-size: 60px;
+    padding-bottom: 13px;
+}
+.hero a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+}
+#right-angle{
+    padding: 6px; padding-bottom: 0;
+}
+.hero span{
+    padding: 10px;
+    background-color: #8b531b;
+}
+
+
