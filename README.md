@@ -22,7 +22,8 @@ It’s a simple interactive calendar built using HTML, CSS and JavaScript. It sh
 
 ## 🚀 Getting Started
 1. Clone the repo:
-`git clone https://github.com/your-username/cen-414-calendar.git`  
+`git clone https://github.com/TechEnginHER/CEN414-Software-Engineering-I.git`
+
 2. Open index.html in your browser.
    
 No installation or build tools required.
