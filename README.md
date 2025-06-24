@@ -21,12 +21,12 @@ It’s a simple interactive calendar built which shows use of HTML, CSS styling,
 └── script.js  
 
 ## 🚀 Getting Started
-1. Clone the repo:
+#### 1. Clone the repo:
 ```bash
 git clone https://github.com/TechEnginHER/CEN414-Software-Engineering-I.git
 ```
 
-3. Open index.html in your browser.
+#### 2. Open index.html in your browser.
    
 No installation or build tools required.
 
