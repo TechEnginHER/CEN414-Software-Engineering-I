@@ -1,6 +1,6 @@
 # CEN 414 Calendar Project
 This is my first Software Engineering project created as part of the CEN 414 course 😊  
-It’s a simple interactive calendar built using HTML, CSS and JavaScript. It shows use of html, CSS styling, DOM manipulation and date handling on the frontend.
+It’s a simple interactive calendar built which shows use of HTML, CSS styling, DOM manipulation and date handling on the frontend.
 
 ## 🛠️ Technologies Used  
 
@@ -22,9 +22,11 @@ It’s a simple interactive calendar built using HTML, CSS and JavaScript. It sh
 
 ## 🚀 Getting Started
 1. Clone the repo:
-`git clone https://github.com/TechEnginHER/CEN414-Software-Engineering-I.git`
+```bash
+git clone https://github.com/TechEnginHER/CEN414-Software-Engineering-I.git
+```
 
-2. Open index.html in your browser.
+3. Open index.html in your browser.
    
 No installation or build tools required.
 
